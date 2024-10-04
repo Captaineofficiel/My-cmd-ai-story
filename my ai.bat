@@ -140,7 +140,7 @@ set /p roblox=
 if /i "%roblox%"=="y" (
     start "" https://www.youtube.com/watch?v=xADSDapqn9o
     start "" https://www.roblox.com/games/13892378955/1-A-Nostalgic-Hangout-Game
-    timeout /t 8 >nul
+    timeout /t 12 >nul
     echo ... 
     timeout /t 10 >nul
     echo Forgot that game... I'll just go :)
@@ -271,8 +271,4 @@ goto end
 :runMyAI
 echo Running the existing program "my ai2.0+"...
 start "" "%USERPROFILE%\Desktop\my ai2.0+.bat"
-exit
-
-:end
-echo Exiting...
 exit
